@@ -3,8 +3,12 @@
   padding: 2rem;
 }
 
-
 .menu {
   display: flex;
   justify-content: space-evenly;
-}   
+}
+
+.active-link {
+  border-bottom: thin solid rgb(0, 0, 0);
+  padding: 1px;
+}

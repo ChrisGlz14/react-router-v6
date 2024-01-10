@@ -3,6 +3,7 @@ import { Home } from './pages/Home';
 import { Acerca } from './pages/Acerca';
 import { Contacto } from './pages/Contacto';
 import { Menu } from './components/Menu';
+import './App.css'
 
 
 function App() {
