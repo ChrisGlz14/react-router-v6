@@ -10,6 +10,7 @@ export const Menu = () => {
         <Link to="/inexistente">error 404</Link>
         <Link to="/productos">Productos</Link>
         <Link to="/randomdata">Random Data</Link>
+        <Link to="/servicios">Servicios</Link>
       </nav>
       <nav className="menu">
         <NavLink

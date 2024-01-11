@@ -1,34 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Productos = () => {
-  const productos = [
-    {
-      id: 1,
-      nombre: "leche",
-      precio: "800",
-    },
-    {
-      id: 2,
-      nombre: "pan",
-      precio: "200",
-    },
-    {
-      id: 3,
-      nombre: "huevos",
-      precio: "350",
-    },
-    {
-      id: 4,
-      nombre: "queso",
-      precio: "1200",
-    },
-    {
-      id: 5,
-      nombre: "yogur",
-      precio: "500",
-    },
-  ];
+export const Productos = ({productos}) => {
 
   return (
     <section>
