@@ -1,9 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Acerca } from './pages/Acerca';
 import { Contacto } from './pages/Contacto';
 import { Menu } from './components/Menu';
-import './App.css'
+import { Error404 } from './components/Error404';
+import { Productos } from './pages/Productos';
+import { RandomData } from './pages/RandomData';
 
 
 function App() {
@@ -17,6 +20,11 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/acerca' element={<Acerca/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
+        <Route path='/about' element={<Navigate to="/acerca"/>}/>
+        <Route path='/productos' element={<Productos />}/>
+        <Route path='/productos/:id' element={<Productos />}/>
+        <Route path='/randomdata' element={<RandomData />}/>
+        <Route path='*' element={<Error404/>}/>
       </Routes>
     </BrowserRouter>
     </>

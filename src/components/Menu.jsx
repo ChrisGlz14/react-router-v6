@@ -6,6 +6,10 @@ export const Menu = () => {
         <Link to="/">Home</Link>
         <Link to="/acerca">Acerca</Link>
         <Link to="/contacto">contacto</Link>
+        <Link to="/about">About</Link>
+        <Link to="/inexistente">error 404</Link>
+        <Link to="/productos">Productos</Link>
+        <Link to="/randomdata">Random Data</Link>
       </nav>
       <nav className="menu">
         <NavLink
