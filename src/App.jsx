@@ -44,7 +44,7 @@ function App() {
     },
   ]);
 
-  const [servicios, setServicios] = useState([
+  const [servicios, setServicios ] = useState([
     {
       id: 1,
       servicio: "Lavado de auto",

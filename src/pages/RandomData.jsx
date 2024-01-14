@@ -27,9 +27,9 @@ export const RandomData = () => {
 
   return (
     <>
-      <h1>Consumiendo Api falsa</h1>
-      <ul>
-        {userData.map((userData)=>(<li key={userData.id}>{userData.employment.title}</li>))}
+      <h1 className="text-center text-2xl mt-5 bg-slate-500 text-white">Consumiendo Api falsa</h1>
+      <ul className="text-center text-2xl mt-5">
+        {userData.map((userData)=>(<li className="mt-8" key={userData.id}>{userData.employment.title}</li>))}
       </ul>
     </>
   );

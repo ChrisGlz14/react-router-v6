@@ -11,21 +11,21 @@ export const Acerca = () => {
 
   return (
     <>
-      <h1>Acerca de nosotros</h1>;
-      <h1>Nuestro email es:</h1>
-      <ul>
+      <h1 className="text-center text-2xl mt-5">Acerca de nosotros</h1>;
+      <h1 className="text-center text-2xl mt-5">Nuestro email es:</h1>
+      <ul className="text-center text-2xl mt-5">
         {fakeApiDatas.map((fakeApiData)=>(<li key={fakeApiData.id}>{fakeApiData.name}</li>))}
       </ul>
       <hr />
-      <h1>Nuestros Mail son:</h1>
-      <ul>
+      <h1 className="text-center text-2xl mt-5">Nuestros Mail son:</h1>
+      <ul className="text-center text-2xl mt-5">
         {fakeApiDatas.map((fakeApiData) => (
           <li key={fakeApiData.id}>{fakeApiData.email}</li>
         ))}
       </ul>
       <hr />  
-      <h1>Nuestra edad es:</h1>
-      <ul>
+      <h1 className="text-center text-2xl mt-5">Nuestra edad es:</h1>
+      <ul className="text-center text-2xl mt-5">
         {fakeApiDatas.map((fakeApiData) => (
           <li key={fakeApiData.id}>{fakeApiData.age}</li>
         ))}
